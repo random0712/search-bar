@@ -11,8 +11,6 @@ const Li = styled.li`
 	margin-bottom: 5px;
 	padding: 10px;
 	background-color: #8f509d;
-
-	display: flex;
 	
 `;
 
