@@ -3,7 +3,7 @@ import React from 'react';
 function Item(props) {
 
 	return (
-		<li>{props.children}</li>
+		<li className="item" >{props.children}</li>
 	);
 };
 
