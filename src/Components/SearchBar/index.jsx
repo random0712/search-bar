@@ -7,7 +7,6 @@ function SearchBar(props) {
 	function search(query) {
 
 		const queryText = query.toLowerCase();
-
 		const items = document.querySelectorAll(".item");
 
 		if (queryText.length < 3) {
@@ -15,7 +14,6 @@ function SearchBar(props) {
 		} else {
 			items.forEach(item => {
 				const text = item.innerText.toLowerCase();
-
 				const match = text.includes(queryText);
 
 		        if(match) {
@@ -29,7 +27,7 @@ function SearchBar(props) {
 	};
 
 	return (
-		<Input onChange={(e) => search(e.target.value)}></Input>
+		<Input placeholder="Pesquise um item" onChange={(e) => search(e.target.value)}></Input>
 	);
 };
 

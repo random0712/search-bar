@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { Li } from './styles'
+
 function Item(props) {
 
 	return (
-		<li className="item" >{props.children}</li>
+		<Li className="item" >{props.children}</Li>
 	);
 };
 

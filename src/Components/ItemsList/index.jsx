@@ -1,11 +1,13 @@
 import React from 'react';
 
+import { Ul } from './styles';
+
 function ItemsList(props) {
 
 	return (
-		<ul>
+		<Ul>
 			{props.children}
-		</ul>
+		</Ul>
 	);
 };
 
